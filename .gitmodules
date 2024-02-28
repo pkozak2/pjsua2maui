@@ -18,3 +18,7 @@
 	path = third_party/OpenSSL-for-iPhone
 	url = https://github.com/x2on/OpenSSL-for-iPhone.git
 	branch = master
+[submodule "third_party/bcg729"]
+	path = third_party/bcg729
+	url = https://github.com/BelledonneCommunications/bcg729.git
+	branch = 1.1.1

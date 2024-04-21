@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net7.0-ios</TargetFramework>
+		<TargetFramework>net8.0-ios</TargetFramework>
 		<UseMaui>true</UseMaui>
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
@@ -14,9 +14,9 @@
 		<PackageId>libpjsua2.maui.ios</PackageId>
 		<Version>1.2.14.010</Version>
 		<Title>PJSIP bindings for .NET MAUI</Title>
-		<Authors>Weslley Murdock</Authors>
-		<Company>Onboard Code</Company>
-		<Copyright>Copyright ©2024 Onboard Code Corporation</Copyright>
+		<Authors>Piotr Kozak based on Weslley Murdock</Authors>
+		<Company>Piotr Kozak</Company>
+		<Copyright>Copyright ©2024 Piotr Kozak</Copyright>
 		<PackageOutputPath Condition="'$(PackageOutputPath)'==''">bin\Nuget</PackageOutputPath>
 		<PackageTags>sip;voip;pjsip;pjlib;pjsua;pjsua2;libpjsua2;pjproject;pjsua2maui;maui;net</PackageTags>
 		<Description>PJSIP pjsua2 bindings for pjsua2
@@ -28,12 +28,9 @@
 
 			This library enables working with the pjsip SIP stack implementation for make voip
 			calls.
-			For this release see notes -
-			https://github.com/weslleymurdock/pjsua2maui/blob/main/README.md and
-			https://github.com/weslleymurdock/pjsua2maui/blob/main/CHANGELOG.md
 		</Description>
-		<PackageProjectUrl>https://github.com/weslleymurdock/pjsua2maui</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/weslleymurdock/pjsua2maui.git</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/pkozak2/pjsua2maui</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/pkozak2/pjsua2maui.git</RepositoryUrl>
 	</PropertyGroup>
 
 

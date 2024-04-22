@@ -4,7 +4,7 @@
 		<TargetFramework>net8.0-android</TargetFramework>
 		<RuntimeIdentifiers>android-arm;android-arm64;android-x86;android-x64</RuntimeIdentifiers>
 		<UseMaui>true</UseMaui>
-		<TargetPlatformVersion>33</TargetPlatformVersion>
+		<TargetPlatformVersion>34</TargetPlatformVersion>
 		<TargetPlatformMinVersion>21</TargetPlatformMinVersion>
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
@@ -27,7 +27,7 @@
 			Pjsip version used is 2.14, using thirdy party libs such as openh264, openssl and opus
 			#NOTES
 			Min Android version : 5.0 (API 21)
-			Max Android version : 13.0 (API 33)
+			Max Android version : 14.0 (API 34)
 			
 			This library enables working with the pjsip SIP stack implementation for make voip
 			calls.
@@ -36,7 +36,7 @@
 		<RepositoryUrl>https://github.com/pkozak2/pjsua2maui.git</RepositoryUrl>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(TargetFramework)|$(Platform)'=='net7.0-android|AnyCPU'">
+	<PropertyGroup Condition="'$(TargetFramework)|$(Platform)'=='net8.0-android|AnyCPU'">
 		<CreatePackage>true</CreatePackage>
 	</PropertyGroup>
 	 
